@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB49111F29FA75B20006EE42 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB49111E29FA75B20006EE42 /* Response.swift */; };
 		FB7FC32829F9209F00A4620D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7FC32729F9209F00A4620D /* AppDelegate.swift */; };
 		FB7FC32A29F9209F00A4620D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7FC32929F9209F00A4620D /* ViewController.swift */; };
 		FB7FC32D29F9209F00A4620D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB7FC32B29F9209F00A4620D /* Main.storyboard */; };
 		FB7FC32F29F920A000A4620D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB7FC32E29F920A000A4620D /* Assets.xcassets */; };
 		FB7FC33229F920A000A4620D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB7FC33029F920A000A4620D /* LaunchScreen.storyboard */; };
+		FB7FC33A29F932AE00A4620D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7FC33929F932AE00A4620D /* Constants.swift */; };
+		FB7FC33C29F9609E00A4620D /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7FC33B29F9609E00A4620D /* Video.swift */; };
+		FB7FC33E29F960F900A4620D /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7FC33D29F960F900A4620D /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FB49111E29FA75B20006EE42 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 		FB7FC32429F9209F00A4620D /* youtube-onedaybuild.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "youtube-onedaybuild.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB7FC32729F9209F00A4620D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB7FC32929F9209F00A4620D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,9 @@
 		FB7FC32E29F920A000A4620D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB7FC33129F920A000A4620D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB7FC33329F920A000A4620D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB7FC33929F932AE00A4620D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FB7FC33B29F9609E00A4620D /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		FB7FC33D29F960F900A4620D /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				FB7FC32E29F920A000A4620D /* Assets.xcassets */,
 				FB7FC33029F920A000A4620D /* LaunchScreen.storyboard */,
 				FB7FC33329F920A000A4620D /* Info.plist */,
+				FB7FC33929F932AE00A4620D /* Constants.swift */,
+				FB7FC33B29F9609E00A4620D /* Video.swift */,
+				FB7FC33D29F960F900A4620D /* Model.swift */,
+				FB49111E29FA75B20006EE42 /* Response.swift */,
 			);
 			path = "youtube-onedaybuild";
 			sourceTree = "<group>";
@@ -135,8 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB7FC33E29F960F900A4620D /* Model.swift in Sources */,
 				FB7FC32A29F9209F00A4620D /* ViewController.swift in Sources */,
+				FB7FC33C29F9609E00A4620D /* Video.swift in Sources */,
 				FB7FC32829F9209F00A4620D /* AppDelegate.swift in Sources */,
+				FB49111F29FA75B20006EE42 /* Response.swift in Sources */,
+				FB7FC33A29F932AE00A4620D /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
