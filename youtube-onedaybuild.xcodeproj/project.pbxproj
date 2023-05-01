@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB40358F29FFA2DE0036D77B /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB40358E29FFA2DE0036D77B /* CacheManager.swift */; };
 		FB49111F29FA75B20006EE42 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB49111E29FA75B20006EE42 /* Response.swift */; };
+		FB49112129FDFCBE0006EE42 /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB49112029FDFCBE0006EE42 /* VideoTableViewCell.swift */; };
 		FB7FC32829F9209F00A4620D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7FC32729F9209F00A4620D /* AppDelegate.swift */; };
 		FB7FC32A29F9209F00A4620D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7FC32929F9209F00A4620D /* ViewController.swift */; };
 		FB7FC32D29F9209F00A4620D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB7FC32B29F9209F00A4620D /* Main.storyboard */; };
@@ -19,7 +21,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FB40358E29FFA2DE0036D77B /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
 		FB49111E29FA75B20006EE42 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		FB49112029FDFCBE0006EE42 /* VideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
 		FB7FC32429F9209F00A4620D /* youtube-onedaybuild.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "youtube-onedaybuild.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB7FC32729F9209F00A4620D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB7FC32929F9209F00A4620D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,6 +47,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FB49112229FDFCF70006EE42 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				FB7FC32B29F9209F00A4620D /* Main.storyboard */,
+				FB7FC33029F920A000A4620D /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		FB49112329FDFD180006EE42 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FB49112029FDFCBE0006EE42 /* VideoTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FB49112429FDFD1F0006EE42 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FB7FC32929F9209F00A4620D /* ViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		FB49112629FDFD3B0006EE42 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FB7FC33B29F9609E00A4620D /* Video.swift */,
+				FB7FC33D29F960F900A4620D /* Model.swift */,
+				FB49111E29FA75B20006EE42 /* Response.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FB49112729FDFD470006EE42 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FB7FC33929F932AE00A4620D /* Constants.swift */,
+				FB40358E29FFA2DE0036D77B /* CacheManager.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		FB7FC31B29F9209F00A4620D = {
 			isa = PBXGroup;
 			children = (
@@ -63,15 +111,13 @@
 			isa = PBXGroup;
 			children = (
 				FB7FC32729F9209F00A4620D /* AppDelegate.swift */,
-				FB7FC32929F9209F00A4620D /* ViewController.swift */,
-				FB7FC32B29F9209F00A4620D /* Main.storyboard */,
+				FB49112729FDFD470006EE42 /* Helpers */,
+				FB49112629FDFD3B0006EE42 /* Models */,
+				FB49112429FDFD1F0006EE42 /* View Controllers */,
+				FB49112329FDFD180006EE42 /* Views */,
+				FB49112229FDFCF70006EE42 /* Storyboards */,
 				FB7FC32E29F920A000A4620D /* Assets.xcassets */,
-				FB7FC33029F920A000A4620D /* LaunchScreen.storyboard */,
 				FB7FC33329F920A000A4620D /* Info.plist */,
-				FB7FC33929F932AE00A4620D /* Constants.swift */,
-				FB7FC33B29F9609E00A4620D /* Video.swift */,
-				FB7FC33D29F960F900A4620D /* Model.swift */,
-				FB49111E29FA75B20006EE42 /* Response.swift */,
 			);
 			path = "youtube-onedaybuild";
 			sourceTree = "<group>";
@@ -149,7 +195,9 @@
 			files = (
 				FB7FC33E29F960F900A4620D /* Model.swift in Sources */,
 				FB7FC32A29F9209F00A4620D /* ViewController.swift in Sources */,
+				FB49112129FDFCBE0006EE42 /* VideoTableViewCell.swift in Sources */,
 				FB7FC33C29F9609E00A4620D /* Video.swift in Sources */,
+				FB40358F29FFA2DE0036D77B /* CacheManager.swift in Sources */,
 				FB7FC32829F9209F00A4620D /* AppDelegate.swift in Sources */,
 				FB49111F29FA75B20006EE42 /* Response.swift in Sources */,
 				FB7FC33A29F932AE00A4620D /* Constants.swift in Sources */,
