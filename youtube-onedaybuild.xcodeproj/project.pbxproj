@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FB40358F29FFA2DE0036D77B /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB40358E29FFA2DE0036D77B /* CacheManager.swift */; };
+		FB40359129FFA96C0036D77B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB40359029FFA96C0036D77B /* DetailViewController.swift */; };
 		FB49111F29FA75B20006EE42 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB49111E29FA75B20006EE42 /* Response.swift */; };
 		FB49112129FDFCBE0006EE42 /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB49112029FDFCBE0006EE42 /* VideoTableViewCell.swift */; };
 		FB7FC32829F9209F00A4620D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7FC32729F9209F00A4620D /* AppDelegate.swift */; };
@@ -22,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		FB40358E29FFA2DE0036D77B /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
+		FB40359029FFA96C0036D77B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		FB49111E29FA75B20006EE42 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 		FB49112029FDFCBE0006EE42 /* VideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
 		FB7FC32429F9209F00A4620D /* youtube-onedaybuild.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "youtube-onedaybuild.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				FB7FC32929F9209F00A4620D /* ViewController.swift */,
+				FB40359029FFA96C0036D77B /* DetailViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB40359129FFA96C0036D77B /* DetailViewController.swift in Sources */,
 				FB7FC33E29F960F900A4620D /* Model.swift in Sources */,
 				FB7FC32A29F9209F00A4620D /* ViewController.swift in Sources */,
 				FB49112129FDFCBE0006EE42 /* VideoTableViewCell.swift in Sources */,
